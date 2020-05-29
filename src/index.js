@@ -15,3 +15,5 @@ for (var i = 0; i < e.length; i++) {
 }
 console.log(f);
 //Kao što vidimo korištena je imperativna programska paradigma, koristio sam je jer smatram da nema potrebe za izmisljanjem tople vode(prejednostavan zadatak)
+//s obzirom da ima samo jedna radnja, nema potrebe pravit ovu paradigmu proceduralnom 
+//koristit objektnu za ovakav zadatak mi izgleda suludo
