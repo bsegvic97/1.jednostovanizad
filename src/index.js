@@ -9,11 +9,6 @@ document.getElementById("app").innerHTML = `
 </div>
 `;
 var e = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-var f = [];
-for (var i = 0; i < e.length; i++) {
-  if (e[i] % 2 === 0) f.push(e[i]);
-}
+let f = e.filter(number => number % 2 === 0); 
 console.log(f);
-//Kao što vidimo korištena je imperativna programska paradigma, koristio sam je jer smatram da nema potrebe za izmisljanjem tople vode(prejednostavan zadatak)
-//s obzirom da ima samo jedna radnja, nema potrebe pravit ovu paradigmu proceduralnom 
-//koristit objektnu za ovakav zadatak mi izgleda suludo
+//Koristio sam funkcionalnu programsku paradigmu, jer je najkraca za napisati, a i da pokazem da sam nesto novo naucio na ovom kolegiju(rjesenje imperativnom bi bilo na razini 1.srednje)
