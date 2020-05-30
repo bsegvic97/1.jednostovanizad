@@ -11,4 +11,4 @@ document.getElementById("app").innerHTML = `
 var e = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let f = e.filter(number => number % 2 === 0); 
 console.log(f);
-//Koristio sam funkcionalnu programsku paradigmu, jer je najkraca za napisati, a i da pokazem da sam nesto novo naucio na ovom kolegiju(rjesenje imperativnom bi bilo na razini 1.srednje)
+//Koristio sam funkcionalnu programsku paradigmu, jer je najkraca za napisati, a i rjesenje najljepse izgleda
